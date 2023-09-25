@@ -182,7 +182,7 @@ box-shadow: 0px -10px 117px -6px rgba(236,157,237,1);
 
 /*CONTACTO*/
 .contenedor-de-contacto {
-    border: solid 2px black;
+   /* border: solid 2px black;*/
     display: flex;
     justify-content: space-evenly;
    
@@ -275,4 +275,10 @@ box-shadow: 0px -10px 117px -6px rgba(236,157,237,1);
         align-items: center;
         justify-content: center;
     }
+    .contenedor-de-contacto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
 }
